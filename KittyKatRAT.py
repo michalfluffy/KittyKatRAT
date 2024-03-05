@@ -5,7 +5,7 @@ import time
 import os
 from colorama import init, Fore, Back, Style
 
-# Inicjalizacja colorama
+
 init(autoreset=True)
 
 def clear_console():
@@ -15,7 +15,7 @@ def print_kittykatrat():
     text = pyfiglet.figlet_format("KittyKatRAT", font="slant")
     print(Fore.LIGHTMAGENTA_EX + text)
     print(Style.RESET_ALL)
-    print(Fore.BLUE + "Created by: Asher (michalfluffy) and Microsoft hacking team\n")
+    print(Fore.BLUE + "Created by: Michaldev \n")
     print(Style.RESET_ALL)
 
 def print_menu(title, options):
@@ -107,7 +107,7 @@ def main():
         print(Style.RESET_ALL)
 
     print("Press Enter to exit...")
-    input()  # Czekanie na naciśnięcie Enter
+    input()  
 
 if __name__ == "__main__":
     main()
